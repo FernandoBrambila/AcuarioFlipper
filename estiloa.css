@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+body {
+    background-image: url('back.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Inicio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#inicio header {
+    width: 100%;
+    background-color: #32a6e0;
+}
+
+#inicio header .contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio header .contenido-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+#inicio header .contenido-header .logo img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px; /* Reduzco el margen derecho para dar más espacio al texto */
+}
+
+#inicio header .contenido-header .logo h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+
+#inicio header .contenido-header nav {
+    display: flex;
+    align-items: center;
+}
+
+#inicio header .contenido-header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 20px; /* Agregar margen izquierdo para separar los elementos de navegación del texto */
+}
+
+#inicio header .contenido-header nav ul li {
+    text-align: center;
+    margin: 0 10px;
+}
+
+#inicio header .contenido-header nav ul li i {
+    display: block;
+    color: #481580;
+}
+
+#inicio header .contenido-header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #481580;
+    margin: 0 10px;
+}
+
+/* Estilos para la barra de navegación responsive */
+.nav-responsive {
+    font-size: 25px;
+    color: #000000;
+    display: none;
+}
+
+#inicio header .contenido-header nav ul li:hover i {
+    color: #fff;
+}
+
+#inicio header .contenido-header .social a {
+    display: inline-block;
+    background-color: #f35b23;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#inicio .carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inicio .carrusel .info {
+    position: absolute;
+    top: 50%; /* Ajusta la posición vertical según tus necesidades */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color: #fff;
+    outline-color: #350202;
+    text-align: center;
+}
+
+#inicio .carrusel .info h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+}
+
+#inicio .carrusel .info button {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #6f1919;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#inicio .gallery {
+    width: 100%;
+    height: 100%;
+}
+
+#inicio .gallery-cell img {
+    width: 100%;
+    height: 100%; /* Ajusta la altura al 100% para mantener la proporción */
+}#inicio .carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inicio .carrusel .info {
+    position: absolute;
+    top: 95%; /* Ajusta la posición vertical según tus necesidades */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color: #fff;
+    outline-color: #350202;
+    text-align: center;
+}
+
+#inicio .carrusel .info h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+}
+
+#inicio .carrusel .info button {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #6f1919;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#inicio .gallery {
+    width: 100%;
+    height: 100%;
+}
+
+#inicio .gallery-cell img {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        object-fit: fill;
+        }
+#inicio .contenido-abajo {
+    display: flex;
+    align-items: center;
+}
+
+.imgizq {
+    width: 50%;
+    float: left;
+    padding-right: 10px; /* Añade un espacio entre las imágenes */
+}
+
+.imgder {
+    width: 50%;
+    float: right;
+    padding-left: 10px; /* Añade un espacio entre las imágenes */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+}
+
+.imgizq img,
+.imgder img {
+    margin: 0;
+    padding: 0;
+    max-height: 100%; /* Ajusta la altura de las imágenes al 100% de su contenedor */
+}
+
+#abajo {
+    background-image: url('file:///C:Users/usuario/Downloads/web/fondocarne2.png');
+    background-color: rgba(255, 255, 255, 0.205);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 500px 0;
+    color: #000000;
+}
+#inicio p {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#inicio .contenido-up {
+    display: flex;
+    align-items: center;
+}
+
+.imgcentro {
+    width: 50%; /* Ajusta el ancho de la imagen al 50% para que ocupe la mitad del ancho */
+    float: right; /* Alinea a la izquierda */
+}
+
+.texto-izq {
+    width: 50%; /* Ajusta el ancho al 50% para que ocupe la mitad del ancho */
+    float: left; /* Alinea a la izquierda */
+}
+
+/* Estilos para el texto */
+.texto-izq p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.texto-izq p:last-child {
+    font-size: 12px;
+    font-style: italic;
+}

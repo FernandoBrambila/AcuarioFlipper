@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand ';
+}
+body {
+    background-image: url('back.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+#Inicio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#inicio header {
+    width: 100%;
+    background-color: #32a6e0;
+}
+
+#inicio header .contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio header .contenido-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+#inicio header .contenido-header .logo img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px; /* Reduzco el margen derecho para dar más espacio al texto */
+}
+
+#inicio header .contenido-header .logo h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+
+#inicio header .contenido-header nav {
+    display: flex;
+    align-items: center;
+}
+
+#inicio header .contenido-header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 20px; /* Agregar margen izquierdo para separar los elementos de navegación del texto */
+}
+
+#inicio header .contenido-header nav ul li {
+    text-align: center;
+    margin: 0 10px;
+}
+
+#inicio header .contenido-header nav ul li i {
+    display: block;
+    color: #481580;
+}
+
+#inicio header .contenido-header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #481580;
+    margin: 0 10px;
+}
+
+/* Estilos para la barra de navegación responsive */
+.nav-responsive {
+    font-size: 25px;
+    color: #000000;
+    display: none;
+}
+
+#inicio header .contenido-header nav ul li:hover i {
+    color: #fff;
+}
+
+#inicio header .contenido-header .social a {
+    display: inline-block;
+    background-color: #f35b23;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#Sucursales 
+{
+    font-size: 30px;
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-top: 50px; /* Ajusta este valor según sea necesario para centrar verticalmente */
+    }
+    .fila {
+        display: flex;
+        justify-content: space-between; /* Separa las imágenes horizontalmente */
+        align-items: center; /* Centra verticalmente las imágenes */
+        margin: 20px 0; /* Añade un espacio entre las imágenes */
+    }
+    
+    .imagen {
+        width: 50%; /* Ajusta el ancho de las imágenes según tus necesidades */
+    }
